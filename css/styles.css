@@ -201,13 +201,115 @@ footer {
 	background-color: black;
 }
 
+#retail-nz {
+	background-color: #eeeeee;
+	/*border-bottom: 1px solid #cccccc;*/
+}
 
 
+#retail-nz p {
+	text-align: center;
+	padding: 20px;
+	margin-top: 0;
+	border-bottom: 1px solid #cccccc;
+}
+
+#left {
+	background-color: #eeeeee;
+	width: 50%;
+	float: left;
+	margin-top: -16px;
+	padding-left: 25px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
 
 
+#right {
+	background-color: #eeeeee;
+	width: 50%;
+	float: right;
+	margin-top: -16px;
+	padding-left: 20px ;
+	padding-right: 25px;
+	box-sizing: border-box;
+}
 
+#extra section > h1 {
+	border-bottom: 1px solid #cccccc;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding-bottom: 7px;
+}
 
+#comments img {
+	float: left;
+	padding-right: 10px;
+}
 
+#comments p a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #333333; 
+}
+
+#comments p a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#comments article  > a {
+	text-decoration: none;
+	color: #ef005f;
+	font-size: 12px;
+}
+
+#comments article  > a:hover {
+	text-decoration: underline;
+	color: #ef005f;
+}
+
+#comments p {
+	margin-bottom: -1px;
+}
+
+#extra section {
+	margin-bottom: 40px;
+}
+
+#top-5 img {
+	float: left;
+	padding: 0 10px 0 10px;
+}
+
+#top-5 h1 a {
+	border-bottom: none;
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+#top-5 h1 a: {
+	text-decoration: underline;
+	color: black;
+}
+
+#top-5 article {
+	border-bottom: 1px dashed #cccccc;
+	padding-bottom: 10px;
+}
+
+#top-5 article:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#top-5 div:nth-of-type(1) {
+	background-color: white;
+	padding: 15px 10px 10px 5px;
+}
 
 
 
