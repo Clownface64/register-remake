@@ -311,6 +311,118 @@ footer {
 	padding: 15px 10px 10px 5px;
 }
 
+#advert {
+	text-align: center;
+}
+
+#editors-pick img {
+	float: left;
+	padding: 0 10px 0 10px;
+}
+
+#editors-pick h1 a {
+	border-bottom: none;
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+#editors-pick h1 a: {
+	text-decoration: underline;
+	color: black;
+}
+
+#editors-pick article {
+	border-bottom: 1px dashed #cccccc;
+	padding-bottom: 10px;
+}
+
+#editors-pick article:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#editors-pick div:nth-of-type(1) {
+	background-color: white;
+	padding: 15px 10px 10px 5px;
+
+}
+
+#sponsors img {
+	width: calc(33.333% - 10px);
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #cccccc;
+	margin: 5px;
+
+}
+
+#advert-right img {
+	padding-top: 15px;
+	vertical-align: center;
+}
+
+#property h1 > span {
+	text-transform: none;
+	display: block;
+	font-size: 16px;
+	color: #777777;
+}
+
+#property article img {
+	float: left;
+	padding: 10px;
+}
+
+#property div{
+	border: 2px solid #00204B;
+	background-color: white;
+	padding: 10px;
+}
+
+#property div article h1 a {
+	text-decoration: none;
+	color: #555555;
+	font-size: 14px;
+}
+
+#property div article h1 a span {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#property div article h1 a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#property div article:last-child {
+	border-bottom: 2px solid #00204b;
+}
+
+#property div img:last-child {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
